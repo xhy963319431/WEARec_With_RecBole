@@ -1,4 +1,4 @@
-name: diff
+name: wearec
 channels:
   - defaults
 dependencies:
