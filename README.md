@@ -6,8 +6,8 @@ You can find our paper on [arXiv](https://arxiv.org/abs/2511.07028).
 To replicate our environment, please follow the steps below:
 ```bash
 # Clone this repository
-git clone https://github.com/HyeYoung1218/DIFF.git
-cd DIFF
+git clone https://github.com/xhy963319431/WEARec_With_RecBole.git
+cd WEARec_With_RecBole
 
 # Create conda environment from the provided file
 conda env create -f environment.yml
