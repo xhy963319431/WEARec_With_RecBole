@@ -11,7 +11,7 @@ cd WEARec_With_RecBole
 
 # Create conda environment from the provided file
 conda env create -f environment.yml
-conda activate diff
+conda activate wearec
 ```
 
 ## 📁 Dataset
