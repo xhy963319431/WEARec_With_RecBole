@@ -49,6 +49,93 @@ Run the following command:
 ```bash
 bash run_wearec.sh
 ```
+## Experiment Results Update
+We noticed that [DIFF](https://arxiv.org/abs/2510.25259) (SIGIR 2025) evaluated [BSARec](https://arxiv.org/abs/2312.10325) (AAAI 2024) on the Amazon and Yelp datasets to assess its performance within the RecBole framework. To address this, we present the corresponding performance benchmarks for WEARec below. Please note that BSARec and WEARec do not use side information here.
+
+
+<table>
+  <tr>
+    <th rowspan="2">Metric</th>
+    <th colspan="3">Yelp</th>
+    <th colspan="3">Beauty</th>
+    <th colspan="3">Sports</th>
+    <th colspan="3">Toys</th>
+  </tr>
+  <tr>
+    <th>BSARec</th>
+    <th>WEARec</th>
+    <th>DIFF</th>
+    <th>BSARec</th>
+    <th>WEARec</th>
+    <th>DIFF</th>
+    <th>BSARec</th>
+    <th>WEARec</th>
+    <th>DIFF</th>
+    <th>BSARec</th>
+    <th>WEARec</th>
+    <th>DIFF</th>
+  </tr>
+  <tr>
+    <td>HR@10</td>
+    <td>0.0701</td>
+    <td>0.0831</td>
+    <td>0.0815</td>
+    <td>0.0871</td>
+    <td>0.0879</td>
+    <td>0.0935</td>
+    <td>0.0506</td>
+    <td>0.0513</td>
+    <td>0.0574</td>
+    <td>0.0928</td>
+    <td>0.0951</td>
+    <td>0.1023</td>
+  </tr>
+   <tr>
+    <td>HR@20</td>
+    <td>0.1023</td>
+    <td>0.1176</td>
+    <td>0.1200</td>
+    <td>0.1260</td>
+    <td>0.1257</td>
+    <td>0.1347</td>
+    <td>0.0741</td>
+    <td>0.0764</td>
+    <td>0.0853</td>
+    <td>0.1293</td>
+    <td>0.1310</td>
+    <td>0.1425</td>
+  </tr>
+  <tr>
+    <td>NDCG@10</td>
+    <td>0.0423</td>
+    <td>0.0473</td>
+    <td>0.0470</td>
+    <td>0.0437</td>
+    <td>0.0426</td>
+    <td>0.0526</td>
+    <td>0.0239</td>
+    <td>0.0232</td>
+    <td>0.0310</td>
+    <td>0.0460</td>
+    <td>0.0448</td>
+    <td>0.0553</td>
+  </tr>
+  <tr>
+    <td>NDCG@20</td>
+    <td>0.0503</td>
+    <td>0.0560</td>
+    <td>0.0567</td>
+    <td>0.0535</td>
+    <td>0.0521</td>
+    <td>0.0632</td>
+    <td>0.0298</td>
+    <td>0.0295</td>
+    <td>0.0381</td>
+    <td>0.0552</td>
+    <td>0.0539</td>
+    <td>0.0656</td>
+  </tr>
+</table>
 
 ## 📄 Citation
 If you find this repository helpful for your work, please cite the following paper:
