@@ -1,6 +1,6 @@
 # WEARec_With_RecBole (AAAI'26 Oral)
 This is the official repository for our paper "**Wavelet Enhanced Adaptive Frequency Filter for Sequential Recommendation**" in AAAI'26 Oral.
-You can find our paper on [[arXiv][(https://arxiv.org/abs/2511.07028)].
+You can find our paper on [arXiv](https://arxiv.org/abs/2511.07028)].
 
 ## 🛠️ Installation
 To replicate our environment, please follow the steps below:
